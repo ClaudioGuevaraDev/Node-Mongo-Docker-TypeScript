@@ -14,3 +14,11 @@ GET {{api}}
 GET {{api}}/625c95e93e880ff1288fe1f8
 ###
 DELETE {{api}}/625c95e93e880ff1288fe1f8
+###
+PUT {{api}}/625c9e82e20e23a381404c0
+Content-Type: application/json
+
+{
+    "title": "Task three",
+    "description": "Description three"
+}
