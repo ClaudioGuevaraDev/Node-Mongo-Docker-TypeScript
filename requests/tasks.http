@@ -5,6 +5,12 @@ POST {{api}}
 Content-Type: application/json
 
 {
-    "title": "Task One",
-    "description": "Description one"
+    "title": "Task Two",
+    "description": "Description two"
 }
+###
+GET {{api}}
+###
+GET {{api}}/625c95e93e880ff1288fe1f8
+###
+DELETE {{api}}/625c95e93e880ff1288fe1f8
