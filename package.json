@@ -1,0 +1,26 @@
+{
+  "name": "node-mongo-docker",
+  "version": "1.0.0",
+  "description": "Una simple rest api integrando docker",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioGuevaraDev/Node-Mongo-Docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudioGuevaraDev/Node-Mongo-Docker/issues"
+  },
+  "homepage": "https://github.com/ClaudioGuevaraDev/Node-Mongo-Docker#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
