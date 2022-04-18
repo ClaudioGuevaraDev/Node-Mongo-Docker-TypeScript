@@ -1,4 +1,4 @@
-@api = http://localhost:4000/api/tasks
+@api = http://localhost:5000/api/tasks
 
 ###
 POST {{api}}
@@ -13,7 +13,7 @@ GET {{api}}
 ###
 GET {{api}}/625ca0f4f8df22d8ad1661d4
 ###
-DELETE {{api}}/625ca0f4f8df22d8ad1661d4
+DELETE {{api}}/625cac9fc42f27d5efe935e4
 ###
 PUT {{api}}/625ca114f8df22d8ad1661da
 Content-Type: application/json
